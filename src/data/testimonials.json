@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "quote": "Ik heb bedankkaarten gestuurd naar al mijn bruiloftsgasten. Iedereen dacht dat ik weken had besteed aan het schrijven ervan!",
+    "author": "Sophie van der Berg",
+    "context": "150 bedankkaarten verstuurd",
+    "rating": 5
+  },
+  {
+    "id": "2",
+    "quote": "Als ondernemer heb ik weinig tijd, maar wil ik wel persoonlijk contact met klanten. Inktly is de perfecte oplossing.",
+    "author": "Mark Jansen",
+    "context": "Zakelijke klant",
+    "rating": 5
+  },
+  {
+    "id": "3",
+    "quote": "Mijn oma was zo ontroerd door de verjaardagskaart. Ze had geen idee dat het niet door mij was geschreven!",
+    "author": "Lisa de Groot",
+    "context": "Verjaardagskaart verstuurd",
+    "rating": 5
+  },
+  {
+    "id": "4",
+    "quote": "De kwaliteit is ongelooflijk. Het handschrift ziet er precies uit zoals ik het zou schrijven, maar dan mooier.",
+    "author": "Thomas Bakker",
+    "context": "Regelmatige klant",
+    "rating": 5
+  }
+]

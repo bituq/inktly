@@ -1,0 +1,44 @@
+[
+  {
+    "id": "elegant-cursive",
+    "name": "Elegant Cursief",
+    "fontFamily": "var(--font-dancing-script), 'Dancing Script', cursive",
+    "description": "Vloeiend en verbonden met sierlijke lussen",
+    "characteristics": ["Vloeiend", "Formeel", "Verbonden"]
+  },
+  {
+    "id": "casual-print",
+    "name": "Casual Print",
+    "fontFamily": "var(--font-patrick-hand), 'Patrick Hand', cursive",
+    "description": "Ontspannen en vriendelijke drukletter",
+    "characteristics": ["Vriendelijk", "Duidelijk", "Casual"]
+  },
+  {
+    "id": "artistic-flow",
+    "name": "Artistiek Vloeiend",
+    "fontFamily": "var(--font-caveat), 'Caveat', cursive",
+    "description": "Speels en expressief met karakter",
+    "characteristics": ["Speels", "Expressief", "Uniek"]
+  },
+  {
+    "id": "gentle-script",
+    "name": "Zacht Script",
+    "fontFamily": "var(--font-kalam), 'Kalam', cursive",
+    "description": "Warm en uitnodigend handschrift",
+    "characteristics": ["Warm", "Uitnodigend", "Persoonlijk"]
+  },
+  {
+    "id": "classic-handwriting",
+    "name": "Klassiek Handschrift",
+    "fontFamily": "var(--font-indie-flower), 'Indie Flower', cursive",
+    "description": "Tijdloos en herkenbaar handschrift",
+    "characteristics": ["Tijdloos", "Herkenbaar", "Nostalgisch"]
+  },
+  {
+    "id": "modern-casual",
+    "name": "Modern Casual",
+    "fontFamily": "var(--font-shadows-into-light), 'Shadows Into Light', cursive",
+    "description": "Hedendaags met een persoonlijke touch",
+    "characteristics": ["Modern", "Luchtig", "Persoonlijk"]
+  }
+]

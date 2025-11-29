@@ -1,0 +1,50 @@
+[
+  {
+    "id": "how-it-works",
+    "question": "Hoe werkt robot-handschrift?",
+    "answer": "Onze robots gebruiken speciale pennen en geavanceerde technologie om elk karakter individueel te schrijven, net zoals een mens dat zou doen. Het resultaat is niet te onderscheiden van echt handschrift.",
+    "category": "Over de service"
+  },
+  {
+    "id": "looks-real",
+    "question": "Ziet het er echt uit als handgeschreven?",
+    "answer": "Absoluut! Onze technologie voegt natuurlijke variaties toe aan elke letter, waardoor het onmogelijk is om te zien dat het door een robot is geschreven. Zelfs experts kunnen het verschil niet zien.",
+    "category": "Over de service"
+  },
+  {
+    "id": "own-design",
+    "question": "Kan ik mijn eigen kaartontwerp gebruiken?",
+    "answer": "Ja! Je kunt je eigen ontwerp uploaden of kiezen uit onze collectie van prachtige kaartontwerpen. We printen je ontwerp en schrijven je bericht erop.",
+    "category": "Kaarten & Personalisatie"
+  },
+  {
+    "id": "sizes",
+    "question": "Welke formaten zijn beschikbaar?",
+    "answer": "We bieden kaarten aan in A6 (10.5x14.8cm), A5 (14.8x21cm) en vierkant (14x14cm). Elk formaat is perfect voor verschillende gelegenheden.",
+    "category": "Kaarten & Personalisatie"
+  },
+  {
+    "id": "delivery-time",
+    "question": "Hoe lang duurt de levering?",
+    "answer": "Kaarten worden binnen 2-3 werkdagen geschreven en verzonden. Binnenlandse levering duurt meestal 1-2 werkdagen extra. Spoedlevering is ook mogelijk.",
+    "category": "Bestellen & Verzenden"
+  },
+  {
+    "id": "international",
+    "question": "Verzenden jullie internationaal?",
+    "answer": "Ja, we verzenden naar heel Europa en daarbuiten. Internationale verzending duurt 5-10 werkdagen, afhankelijk van de bestemming.",
+    "category": "Bestellen & Verzenden"
+  },
+  {
+    "id": "pricing",
+    "question": "Wat kost een kaart?",
+    "answer": "Prijzen beginnen vanaf €4,95 per kaart inclusief handschrift. Verzendkosten en envelop zijn inbegrepen. Bij grotere aantallen gelden aantrekkelijke kortingen.",
+    "category": "Prijzen"
+  },
+  {
+    "id": "bulk-discount",
+    "question": "Zijn er kortingen voor grote aantallen?",
+    "answer": "Zeker! Bij 10+ kaarten krijg je 10% korting, bij 25+ kaarten 15% korting, en bij 50+ kaarten 20% korting. Perfect voor bedrijven of speciale gelegenheden.",
+    "category": "Prijzen"
+  }
+]

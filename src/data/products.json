@@ -1,0 +1,50 @@
+[
+  {
+    "id": "thank-you-floral",
+    "name": "Bedankt - Bloemen",
+    "category": "Bedankt",
+    "price": 4.95,
+    "image": "/images/cards/thank-you-floral.jpg",
+    "description": "Elegante bedankkaart met bloemenpatroon"
+  },
+  {
+    "id": "thank-you-minimal",
+    "name": "Bedankt - Minimalistisch",
+    "category": "Bedankt",
+    "price": 4.95,
+    "image": "/images/cards/thank-you-minimal.jpg",
+    "description": "Strakke en moderne bedankkaart"
+  },
+  {
+    "id": "birthday-confetti",
+    "name": "Verjaardag - Confetti",
+    "category": "Verjaardag",
+    "price": 5.50,
+    "image": "/images/cards/birthday-confetti.jpg",
+    "description": "Feestelijke verjaardagskaart met confetti"
+  },
+  {
+    "id": "birthday-elegant",
+    "name": "Verjaardag - Elegant",
+    "category": "Verjaardag",
+    "price": 5.50,
+    "image": "/images/cards/birthday-elegant.jpg",
+    "description": "Stijlvolle verjaardagskaart"
+  },
+  {
+    "id": "holiday-winter",
+    "name": "Feestdagen - Winter",
+    "category": "Feestdagen",
+    "price": 5.95,
+    "image": "/images/cards/holiday-winter.jpg",
+    "description": "Sfeervolle winterkaart voor de feestdagen"
+  },
+  {
+    "id": "love-hearts",
+    "name": "Liefde - Hartjes",
+    "category": "Liefde",
+    "price": 5.50,
+    "image": "/images/cards/love-hearts.jpg",
+    "description": "Romantische kaart met hartjes"
+  }
+]
