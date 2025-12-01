@@ -6,21 +6,21 @@ import { ArrowRight, CheckCircle } from "lucide-react";
 import { motion, useMotionValue, useTransform, animate } from "framer-motion";
 
 const trustPoints = [
-  "Niet te onderscheiden van echt handschrift",
-  "Binnen 3 werkdagen verzonden",
-  "Geen minimale bestelling",
+  "Écht geschreven met pen en inkt",
+  "Binnen 3 werkdagen op de mat",
+  "Vanaf 1 kaart mogelijk",
 ];
 
 const handwrittenLines = [
-  "Beste Thomas,",
+  "Lieve Lisa,",
   "",
-  "Hartelijk dank voor de",
-  "prettige samenwerking",
-  "dit afgelopen jaar.",
+  "Van harte gefeliciteerd",
+  "met je verjaardag!",
+  "Geniet van je dag.",
   "",
-  "Met vriendelijke groet,",
+  "Dikke kus,",
   "",
-  "Anna de Vries",
+  "Mama",
 ];
 
 function AnimatedHandwriting() {
@@ -104,15 +104,12 @@ export function HeroSection() {
   const [isHovered, setIsHovered] = useState(false);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
-  const handleMouseMove = useCallback(
-    (e: React.MouseEvent<HTMLDivElement>) => {
-      const rect = e.currentTarget.getBoundingClientRect();
-      const x = (e.clientX - rect.left - rect.width / 2) / 25;
-      const y = (e.clientY - rect.top - rect.height / 2) / 25;
-      setMousePosition({ x, y });
-    },
-    []
-  );
+  const handleMouseMove = useCallback((e: React.MouseEvent<HTMLDivElement>) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    const x = (e.clientX - rect.left - rect.width / 2) / 25;
+    const y = (e.clientY - rect.top - rect.height / 2) / 25;
+    setMousePosition({ x, y });
+  }, []);
 
   return (
     <section className="relative min-h-[90vh] flex items-center bg-cream overflow-hidden">
@@ -131,10 +128,10 @@ export function HeroSection() {
                 transition={{ duration: 0.5, delay: 0.2 }}
                 className="text-sm uppercase tracking-widest text-terracotta font-medium mb-4"
               >
-                De toekomst van persoonlijke correspondentie
+                Persoonlijke momenten verdienen persoonlijke aandacht
               </motion.p>
               <h1 className="font-heading text-4xl sm:text-5xl lg:text-6xl text-rich-brown leading-[1.1]">
-                Handgeschreven kaarten op schaal
+                Écht handgeschreven kaarten, zonder zelf te schrijven
               </h1>
             </div>
             <motion.p
@@ -143,9 +140,9 @@ export function HeroSection() {
               transition={{ duration: 0.5, delay: 0.3 }}
               className="text-lg text-warm-brown max-w-xl leading-relaxed"
             >
-              Combineer de warmte van handgeschreven communicatie met het gemak
-              van digitale technologie. Onze pennenrobots schrijven elke kaart
-              met echte inkt, karakter voor karakter.
+              Verjaardagen, geboortes, condoleances of gewoon een lief berichtje.
+              Wij schrijven jouw woorden met echte pen en inkt op papier —
+              letter voor letter, net zo persoonlijk als je zelf zou doen.
             </motion.p>
             <ul className="space-y-3">
               {trustPoints.map((point, index) => (
@@ -171,7 +168,7 @@ export function HeroSection() {
                 size="lg"
                 className="bg-terracotta hover:bg-terracotta-dark text-white text-base px-8 h-12 transition-all duration-300 hover:scale-[1.02] hover:shadow-lg"
               >
-                Begin met ontwerpen
+                Verstuur een kaart
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
               <Button
@@ -179,7 +176,7 @@ export function HeroSection() {
                 variant="outline"
                 className="border-sand text-rich-brown hover:bg-parchment text-base px-8 h-12"
               >
-                Bekijk voorbeelden
+                Bekijk gelegenheden
               </Button>
             </motion.div>
             <motion.div
@@ -190,15 +187,15 @@ export function HeroSection() {
             >
               <div>
                 <p className="font-heading text-3xl text-rich-brown">
-                  <AnimatedCounter target={12500} />+
+                  <AnimatedCounter target={8500} />+
                 </p>
-                <p className="text-sm text-warm-brown">Kaarten verstuurd</p>
+                <p className="text-sm text-warm-brown">Blije ontvangers</p>
               </div>
               <div>
                 <p className="font-heading text-3xl text-rich-brown">
                   <AnimatedCounter target={98} />%
                 </p>
-                <p className="text-sm text-warm-brown">Klanttevredenheid</p>
+                <p className="text-sm text-warm-brown">Tevreden afzenders</p>
               </div>
               <div>
                 <p className="font-heading text-3xl text-rich-brown">

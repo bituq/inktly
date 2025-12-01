@@ -20,14 +20,13 @@ export function TestimonialsSection() {
           className="text-center mb-12"
         >
           <p className="text-sm uppercase tracking-widest text-terracotta font-medium mb-3">
-            Beoordelingen
+            Ervaringen
           </p>
           <h2 className="font-heading text-3xl sm:text-4xl text-rich-brown mb-4">
-            Wat onze klanten zeggen
+            Verhalen van blije afzenders
           </h2>
           <p className="text-warm-brown text-lg max-w-2xl mx-auto">
-            Ontdek waarom duizenden mensen Inktly vertrouwen voor hun
-            persoonlijke berichten
+            Ontdek hoe een handgeschreven kaart het verschil maakt
           </p>
         </motion.div>
 

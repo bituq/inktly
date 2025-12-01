@@ -30,13 +30,13 @@ export function ProductsSection() {
           className="text-center mb-12"
         >
           <p className="text-sm uppercase tracking-widest text-terracotta font-medium mb-3">
-            Onze collectie
+            Kies jouw kaart
           </p>
           <h2 className="font-heading text-3xl sm:text-4xl text-rich-brown mb-4">
-            Kaarten voor elke gelegenheid
+            Prachtige ontwerpen om uit te kiezen
           </h2>
           <p className="text-warm-brown text-lg max-w-2xl mx-auto">
-            Kies uit onze collectie prachtige kaarten of upload je eigen ontwerp
+            Selecteer een kaart die past bij jouw boodschap, of upload je eigen ontwerp
           </p>
         </motion.div>
 

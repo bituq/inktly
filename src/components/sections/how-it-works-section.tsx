@@ -1,7 +1,13 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { LayoutGrid, PenLine, Palette, Send, type LucideIcon } from "lucide-react";
+import {
+  LayoutGrid,
+  PenLine,
+  Palette,
+  Send,
+  type LucideIcon,
+} from "lucide-react";
 
 interface Step {
   number: number;
@@ -13,30 +19,30 @@ interface Step {
 const steps: Step[] = [
   {
     number: 1,
-    title: "Selecteer een kaart",
+    title: "Kies je gelegenheid",
     description:
-      "Kies uit onze collectie kaartontwerpen of upload een eigen design in verschillende formaten.",
+      "Verjaardag, geboorte, condoleance of zomaar — kies een passende kaart uit onze collectie.",
     icon: LayoutGrid,
   },
   {
     number: 2,
     title: "Schrijf je bericht",
     description:
-      "Voer je persoonlijke boodschap in. Wij zorgen voor de perfecte vertaling naar handschrift.",
+      "Type jouw persoonlijke woorden. Wij schrijven ze precies zo op papier.",
     icon: PenLine,
   },
   {
     number: 3,
     title: "Kies een handschrift",
     description:
-      "Selecteer uit zes unieke handschriftstijlen die passen bij de toon van je bericht.",
+      "Van sierlijk tot stoer: selecteer het handschrift dat bij jou en je bericht past.",
     icon: Palette,
   },
   {
     number: 4,
-    title: "Wij verzenden",
+    title: "Wij bezorgen",
     description:
-      "Onze robots schrijven je kaart met echte inkt en wij verzenden hem rechtstreeks.",
+      "Met echte pen en inkt geschreven, in een envelop en rechtstreeks bij de ontvanger bezorgd.",
     icon: Send,
   },
 ];
@@ -59,7 +65,7 @@ export function HowItWorksSection() {
             Hoe het werkt
           </h2>
           <p className="text-warm-brown text-lg max-w-xl mx-auto">
-            Van bericht tot brievenbus in vier stappen
+            Van jouw woorden tot een glimlach — in vier eenvoudige stappen
           </p>
         </motion.div>
 

@@ -1,30 +1,30 @@
 [
   {
     "id": "1",
-    "quote": "Ik heb bedankkaarten gestuurd naar al mijn bruiloftsgasten. Iedereen dacht dat ik weken had besteed aan het schrijven ervan!",
-    "author": "Sophie van der Berg",
-    "context": "150 bedankkaarten verstuurd",
+    "quote": "Mijn oma was zo ontroerd door de verjaardagskaart. Ze had geen idee dat ik het niet zelf had geschreven. Dat is toch het mooiste?",
+    "author": "Lisa de Groot",
+    "context": "Verjaardagskaart voor oma",
     "rating": 5
   },
   {
     "id": "2",
-    "quote": "Als ondernemer heb ik weinig tijd, maar wil ik wel persoonlijk contact met klanten. Inktly is de perfecte oplossing.",
-    "author": "Mark Jansen",
-    "context": "Zakelijke klant",
+    "quote": "Na de geboorte van onze dochter hebben we alle bedankkaartjes via Inktly verstuurd. Iedereen dacht dat we weken hadden zitten schrijven!",
+    "author": "Sophie en Tim",
+    "context": "Geboortekaartjes",
     "rating": 5
   },
   {
     "id": "3",
-    "quote": "Mijn oma was zo ontroerd door de verjaardagskaart. Ze had geen idee dat het niet door mij was geschreven!",
-    "author": "Lisa de Groot",
-    "context": "Verjaardagskaart verstuurd",
+    "quote": "Voor de condoleancekaarten hadden we geen energie om zelf te schrijven. Inktly deed dit met zoveel zorg. Het voelde precies goed.",
+    "author": "Familie Bakker",
+    "context": "Condoleancekaarten",
     "rating": 5
   },
   {
     "id": "4",
-    "quote": "De kwaliteit is ongelooflijk. Het handschrift ziet er precies uit zoals ik het zou schrijven, maar dan mooier.",
-    "author": "Thomas Bakker",
-    "context": "Regelmatige klant",
+    "quote": "Ik woon ver van mijn ouders. Nu stuur ik elke maand een handgeschreven kaartje. Ze vinden het geweldig!",
+    "author": "Emma Jansen",
+    "context": "Maandelijkse kaarten",
     "rating": 5
   }
 ]
